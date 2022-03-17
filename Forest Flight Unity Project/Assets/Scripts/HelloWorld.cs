@@ -8,7 +8,7 @@
 
 //---------------------------------------------------------------
 //Libraries used.
-//---------------------------------------------------------------
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -17,9 +17,11 @@ using UnityEngine;
 // Class HelloWorld.
 // Class Contains everything in the script.
 
-//---------------------------------------------------------------
 public class HelloWorld : MonoBehaviour
+//---------------------------------------------------------------
 {
+
+    public string message = "Hello";
 
     //---------------------------------------------------------------
     // Start is called before the first frame update.
@@ -27,7 +29,7 @@ public class HelloWorld : MonoBehaviour
     void Start()
     {
 
-        Debug.LogWarning("Fortnite battle pass");
+        Debug.LogWarning(message);
 
     }
     //---------------------------------------------------------------
