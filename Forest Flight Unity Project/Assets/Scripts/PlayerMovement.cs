@@ -30,37 +30,4 @@ public class PlayerMovement : MonoBehaviour
 
     }
 
-    // Programmer defined function (not part of Unity).
-    // To be called by button.
-    // Public = accessible outside of script.
-    public void MoveRight()
-    {
-
-        // Use the rigidbody, set the velocity to a vector pointing to the right at magnitude of speed.
-        physicsBody.velocity = new Vector2(speed, 0);
-
-    }
-
-    public void MoveLeft()
-    {
-
-        physicsBody.velocity = new Vector2(-speed, 0);
-
-    }
-
-    public void MoveUp()
-    {
-
-        physicsBody.velocity = new Vector2(0, speed);
-
-    }
-
-    public void MoveDown()
-    {
-
-        physicsBody.velocity = new Vector2(0, -speed);
-
-    }
-
-
 }
