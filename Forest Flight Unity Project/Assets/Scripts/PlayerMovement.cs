@@ -1,13 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-
-    public float speed = 2;
-
     private Rigidbody2D physicsBody = null;
+
+    public float speed = 10;
 
     // Start is called before the first frame update
     void Start()
@@ -15,19 +12,18 @@ public class PlayerMovement : MonoBehaviour
 
         physicsBody = GetComponent<Rigidbody2D>();
 
-        //physicsBody.velocity = new Vector2(2, 0);
-
     }
 
     // Update is called once per frame
     void Update()
     {
 
-        float AxisValY = Input.GetAxis("Vertical");
-        float AxisValX = Input.GetAxis("Horizontal");
+        if (Input.GetButtonDown(buttonName: "Jump"))
+        {
 
-        //physicsBody.velocity = new Vector2(AxisValX * speed, AxisValY * speed);
+            physicsBody.velocity = new Vector2(0, speed);
+
+        }
 
     }
-
 }
