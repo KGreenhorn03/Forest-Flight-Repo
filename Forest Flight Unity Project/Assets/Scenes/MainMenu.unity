@@ -396,7 +396,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6115758e959bba844937a55a84c53c69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stage: OptionScene
+  stage: OptionsScene
 --- !u!1 &388735597
 GameObject:
   m_ObjectHideFlags: 0
