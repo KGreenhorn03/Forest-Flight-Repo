@@ -19,7 +19,7 @@ public class ObstacleSpawn : MonoBehaviour
         {
 
             timer = 0;
-            GameObject newObstacle = Instantiate(objectPrefab, new Vector2(objectPrefab.transform.position.x, objectPrefab.transform.position.y + Random.Range(-2f, 2f)), objectPrefab.transform.rotation);
+            GameObject newObstacle = Instantiate(objectPrefab, new Vector2(objectPrefab.transform.position.x, objectPrefab.transform.position.y + Random.Range(-1.75f, 2.6f)), objectPrefab.transform.rotation);
             Destroy(newObstacle, 5f);
 
 
