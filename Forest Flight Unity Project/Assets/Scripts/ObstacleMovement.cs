@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class ObstacleMovement : MonoBehaviour
 {
+    // Declare Variables.
 
     public float speed = 10;
     private Rigidbody2D rb;
-    public int score;
 
-    // Start is called before the first frame update
+    // Start is called before the first frame update.
     void Start()
     {
 
@@ -17,18 +17,13 @@ public class ObstacleMovement : MonoBehaviour
 
     }
 
-    // Update is called once per frame
+    // Update is called once per frame.
     void Update()
     {
 
+        // Obstacles will move at the pace set by the "speed" variable.
+
         rb.velocity = Vector2.left * speed;
-
-        if (score >= 10)
-        {
-
-            speed = 12;
-
-        }
 
     }
 }

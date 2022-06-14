@@ -12,6 +12,12 @@ EditorBuildSettings:
     path: Assets/Scenes/GameScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
+    path: Assets/Scenes/Endgame.unity
+    guid: f3c5d16f49a51fc48a91b25a24b76cc4
+  - enabled: 1
+    path: Assets/Scenes/In-Game Options.unity
+    guid: 93e68284bbd9d48438b9ce1067679eec
+  - enabled: 1
     path: Assets/Scenes/OptionsScene.unity
     guid: 2f2b8fb119b366540ba818f12a5e3991
   m_configObjects: {}
