@@ -8,6 +8,8 @@ public class SWTLink : MonoBehaviour
     public void SWT()
     {
 
+        // Provides a link for the user to the Scottish Wildlife Trust website.
+
         Application.OpenURL("https://scottishwildlifetrust.org.uk/");
 
     }

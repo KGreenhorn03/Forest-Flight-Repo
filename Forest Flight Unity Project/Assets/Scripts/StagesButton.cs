@@ -6,10 +6,14 @@ using UnityEngine.SceneManagement;
 public class StagesButton : MonoBehaviour
 {
 
+    // Declare variable.
+
     public string stage;
 
     public void Stage()
     {
+
+        // Makes the chosen scene load when function is called..
 
         SceneManager.LoadScene(stage);
 
@@ -17,6 +21,8 @@ public class StagesButton : MonoBehaviour
 
     public void Quit()
     {
+
+        // Quits the program.
 
         Application.Quit();
 
